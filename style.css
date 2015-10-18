@@ -1,0 +1,166 @@
+body {
+    font-family: Lato;
+    color: #838994;
+}
+
+p {
+    font-family: Lato;
+    font-size: 16px;
+	line-height: 20px;
+}
+
+h1 {
+	font-family: Lato;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26.4px;
+}
+
+h2 {
+    color: black;
+}
+h3 {
+	font-family: Lato;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 15.4px;
+}
+
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    border-bottom: 2px solid #CC2900;
+    margin-top: 10px;
+}
+
+.top-navigation {
+    background-color: #fff;
+    border-bottom: 1px solid lightgray;
+}
+
+.top-navigation > .content {
+    width: 60rem;
+    height: 70px;
+    padding: 0 0.938rem;
+    margin: 0 auto;
+}
+.content {
+    width: 60rem;
+    padding: 0 0.938rem;
+    padding-top: 5em;
+    margin: 0 auto;
+    text-align: center;
+    xoutline: 1px solid black;
+}
+
+ .top-navigation .content img {
+    margin-top: 12px;
+    xborder: 1px solid black;
+    float: left;
+}
+
+.top-navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    xoutline: 1px solid black;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+}
+
+a:link, a:visited, a:active {
+    color: #838994;
+     text-decoration: none;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.intro {
+    background-image: url('http://homedir.xyz/wp-content/uploads/jail-office.jpg'), linear-gradient(pink, transparent),
+	linear-gradient(-45deg, magenta, transparent),
+	linear-gradient(45deg, yellow, transparent);
+    background-size: cover;
+    background-position: center bottom;
+    height: 45rem;
+    top: 0;
+    background-blend-mode: multiply;
+}
+
+
+.intro > .content {
+    width: 60rem;
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    padding-top: 170px;
+    color: white;
+    text-align: center;
+}
+
+.intro > .content > h1 {
+    margin-top: 130px;
+}
+ .cases .devices {
+     text-align: center;
+    
+ }
+
+.devices li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 2em;
+    width: 33%;
+    vertical-align: top;
+}
+
+.devices ul {
+    padding-top: 100em;
+}
+
+footer {
+    padding-top: 4em;
+    text-align: center;
+}
+
+footer .content {
+    border-top: 1px solid lightgray;
+    padding-top: 4em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0.625rem;
+    text-align: center;
+}
+
