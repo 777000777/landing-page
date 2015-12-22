@@ -109,7 +109,7 @@ a:hover {
 }
 
 .intro {
-    background-image: url('http://homedir.xyz/wp-content/uploads/jail-office.jpg'), linear-gradient(pink, transparent),
+    background-image: url('http://themeforest.quadcodes.com/site/studioo1/standard/assets/img/placeholder/12.jpg'), linear-gradient(pink, transparent),
 	linear-gradient(-45deg, magenta, transparent),
 	linear-gradient(45deg, yellow, transparent);
     background-size: cover;
